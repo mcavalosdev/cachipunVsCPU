@@ -1,0 +1,35 @@
+:root {
+    --color-fondo: #4488e0;
+    --color-secciones: #1d6da3;
+    --color-boton: #129e30;
+  }
+  
+
+body {
+    background-color: var(--color-fondo);
+}
+
+.container-versus {
+    height: 200px;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    display: flex;
+    background-color:var(--color-secciones);
+    color: white;
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.eleccionCachipun{
+    margin-top: 3rem;
+    height: 200px;
+    vertical-align: middle;
+    padding-top: 4rem;
+    display: flex;
+    background-color:var(--color-secciones);
+    color: white;
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+    justify-content: space-around;
+}
