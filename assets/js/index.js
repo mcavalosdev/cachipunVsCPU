@@ -13,12 +13,14 @@ function aleatorioCPU(min, max) {
 
 }
 
-const userName = prompt("escribe tu nombre")
+const userName = prompt("escribe tu nombre");
+const usernameDisplay = document.getElementById("usuarioNombre");
+usernameDisplay.innerHTML =  userName;
 
 let btnPiedra = document.getElementById("piedra").addEventListener("click", ()=> console.log("boton piedra"));
 let btnPapel = document.getElementById("papel").addEventListener("click", ()=> console.log("boton papel") );
 let btnTijera = document.getElementById("tijera").addEventListener("click", ()=>  console.log("boton tijera"));
-
+let btnJugar = document.getElementById("btnPlay").addEventListener("click", () => console.log("Comienzan los juegos del Anvre"))
 
 
 /*
