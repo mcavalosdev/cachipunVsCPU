@@ -1,6 +1,10 @@
+/* Primero hay que capturar los contadores -----> ok
+2.- Ahora hay que capturar el evento de los botones ----> ok
+3.- botones de piedra papel o tijera deben gatillar un evento que sea capturado 
+por el boton jugar y entrar al ciclo if.
+4.-se debe modificar contador 
 
-
-
+*/
 
 
 function aleatorioCPU(min, max) {
@@ -9,29 +13,28 @@ function aleatorioCPU(min, max) {
 
 }
 
+const userName = prompt("escribe tu nombre")
+
+let btnPiedra = document.getElementById("piedra").addEventListener("click", ()=> console.log("boton piedra"));
+let btnPapel = document.getElementById("papel").addEventListener("click", ()=> console.log("boton papel") );
+let btnTijera = document.getElementById("tijera").addEventListener("click", ()=>  console.log("boton tijera"));
+
+
+
+/*
 const contadorUser = document.getElementById(userCounter);
 const contadorCpu = document.getElementById(cpuCounter)
+const userPapel =
 
-let piedra = 0;
-let papel = 1;
-let tijera = 2;
-let alternativas = ["Piedra", "Papel", "Tijera"];
 
-let opcionUsuario;
-let opcionMaquina = aleatorioCPU(0, 2);
 
-let contador = 0;
-let acumulador = 0;
-
+// let opcionMaquina = aleatorioCPU(0, 2);
 
 while (contador != ) {
     contador++;
     acumulador += ;
 
 
-// opcionUsuario = prompt("¿Qué eliges?\nPiedra: 0\nPapel: 1\nTijera: 2", 0);
-//alert("Escogiste " + alternativas[opcionUsuario]);
-//alert("La máquina escogió " + alternativas[opcionMaquina]);
 
 
     if (opcionUsuario == piedra) {
@@ -68,7 +71,7 @@ while (contador != ) {
 
         } else if (opcionMaquina == tijera) {
             alert("Empate!");
-        }
+        }s
 
     } else {
         alert("Ups!! Has ingresado una opción NO válida, intentalo de nuevo!");
@@ -76,3 +79,4 @@ while (contador != ) {
     }
 }
 
+*/
