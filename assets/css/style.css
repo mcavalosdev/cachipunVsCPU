@@ -1,12 +1,15 @@
 :root {
-    --color-fondo: #4488e0;
-    --color-secciones: #1d6da3;
+    --color-fondo: #719eda;
+    --color-secciones: #0d6efd;
     --color-boton: #129e30;
+   
   }
   
 
 body {
     background-color: var(--color-fondo);
+    width: 100%;
+    height: 200vh;
 }
 
 .container-versus {
@@ -32,4 +35,5 @@ body {
     border: 1px whitesmoke solid;
     border-radius: 5px;
     justify-content: space-around;
+    
 }
